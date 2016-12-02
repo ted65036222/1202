@@ -1,0 +1,27 @@
+﻿@model WebApplication1.Models.Album
+@{
+    ViewBag.Title = "time";
+    Layout = "/Views/Shared/Layout.cshtml";
+}
+
+
+
+<div>
+    <div>
+        <h4>照片</h4>
+        <hr />   
+        <img src="~/photo/12963502_1080195205336574_5806166481834886993_n.jpg" height="200"width="200" />
+        <img src="~/photo/10410232_574998942602094_2952876161311615451_n.jpg" height="200"width="200" />
+        <img src="~/photo/14798791_1398749770161686_786223121_n.jpg"height="200"width="200"  />
+        <img src="~/photo/14215230_1207544349266007_822820403_o.jpg"height="200"width="200"  />
+        <img src="~/photo/15128639_900684580033527_1789901025_n.jpg"height="200"width="200"  />
+                
+           
+               
+    </div>
+    <p>
+        @*@Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |*@
+        @Html.ActionLink("返回", "Index")
+    </p>
+
+</div>
